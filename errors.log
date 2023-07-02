@@ -1,0 +1,10 @@
+{
+  message: 'Probando log error',
+  level: 'error',
+  timestamp: '2023-07-02T21:14:34.466Z'
+}
+{
+  message: 'Probando logger fatal',
+  level: 'fatal',
+  timestamp: '2023-07-02T21:14:34.471Z'
+}

@@ -21,13 +21,13 @@ app.use (express.json())
 app.use (express.urlencoded({extended:true}))
 
 //archivo estaticos
-app.use(express.static(__dirname + '/public'))
+app.use(express.static(__dirname + '../../public'))
 
 //Configuracion de motor de plantilla
 app.engine('handlebars', handlebars.engine({
-    partialsDir: __dirname + '/views/partials',
+    partialsDir: __dirname + '../../views/partials',
 }))
-app.set('views', __dirname + '/views')
+app.set('views', __dirname + '../../views')
 app.set('view engine', 'handlebars')
 
 //Cookie 
